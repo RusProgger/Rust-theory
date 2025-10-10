@@ -43,9 +43,12 @@ fn main() {
 
     // float f32 and f64. f64 - по умолчанию 
 
-    let f_x: f32 = 2.5; 
+    let f_x: f64= 2.5; 
+    let f_d: f64 = 3.5;
 
-    println!("{} ", f_x);
+    println!("{} + {} = {}", f_x, f_d, f_x + f_d);
+
+
 
     
 }
