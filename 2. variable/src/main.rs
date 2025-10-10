@@ -49,6 +49,10 @@ fn main() {
     println!("{} + {} = {}", f_x, f_d, f_x + f_d);
 
 
+    let x_d: f64 = 5.5;
+    let x_w: f64 = 7.2;
+
+    println!("{0} + {1} = {2}", x_d, x_w, x_d + x_w);
 
     
 }
