@@ -56,7 +56,15 @@ fn main() {
 
     // Неизменяемая строка (&str)
 
-    
+    let name: &str = "Alex";
+    println!("{}", name);
 
-    
+    // Изменяемая строка (String)
+
+    let mut hello = String::from("Hello");
+    hello.push_str(", world!!!"); // добавляем текст в конец строки
+    println!("{}", hello);
+
+
+
 }
