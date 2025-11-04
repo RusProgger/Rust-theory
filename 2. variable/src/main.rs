@@ -65,6 +65,10 @@ fn main() {
     hello.push_str(", world!!!"); // добавляем текст в конец строки
     println!("{}", hello);
 
+    let mut name_user: String = String::from("Ivan");
+    name_user.push_str(", Hello");
+    println!("{}", name_user);
 
+    
 
 }
