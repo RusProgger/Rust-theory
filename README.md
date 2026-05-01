@@ -27,6 +27,8 @@ cd 01-hello-world
 cargo run
 ```
 
+<br>
+
 # 🇷🇺 Русский
 
 # Rust Theory
@@ -56,8 +58,7 @@ cd 01-hello-world
 cargo run
 ```
 
-
-
+<br>
 
 # 🇺🇦 Українська
 
