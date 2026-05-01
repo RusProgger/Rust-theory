@@ -1,25 +1,30 @@
+🇬🇧 English
+
 # Rust Theory
 
-Это базовый курс по изучению языка программирования **Rust**.
+This is a basic course for learning the **Rust** programming language.
 
-Здесь собраны мои учебные проекты, примеры и заметки по ключевым темам:
-- Синтаксис и основы Rust
-- Переменные, типы данных, функции
-- Управление памятью: владение, заимствование, ссылки
-- Управляющие конструкции и работа с модулями
-- Работа с `Cargo` и структура проекта
+This repository contains my study projects, examples, and notes on key topics:
 
-## 📦 Цель репозитория
+* Rust syntax and fundamentals
+* Variables, data types, functions
+* Memory management: ownership, borrowing, references
+* Control flow and modules
+* Working with `Cargo` and project structure
 
-Систематизировать изучение Rust и собрать практические примеры, которые помогут лучше понять язык.
+## 📦 Purpose
 
-## 📁 Структура
+To systematize my Rust learning process and collect practical examples that help better understand the language.
 
-Каждая папка — это отдельный урок или тема с исходным кодом.
+## 📁 Structure
 
-## 🚀 Как запустить
+Each folder represents a separate lesson or topic with source code.
+
+## 🚀 How to run
 
 ```bash
 cd 01-hello-world
 cargo run
+```
+
 
