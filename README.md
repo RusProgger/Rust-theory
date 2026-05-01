@@ -1,4 +1,5 @@
 🇬🇧 English
+<hr>
 
 # Rust Theory
 
