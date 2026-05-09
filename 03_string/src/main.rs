@@ -14,7 +14,7 @@ fn main() {
 
     // &str — строковый срез (ссылка на строку)
     // обычно используется только для чтения
-    let name: &str = "Alex";
+    let mut name: &str = "Alex";
     println!("Name: {}", name);
 
     // name.push_str(" Test"); // error
@@ -32,8 +32,10 @@ fn main() {
     println!("------------ Практика ------------");
     
     let s1 = String::from("Hello"); // можно менять содержимое строки
-    let s2: &str = "World"; // нельзя менять содержимое строки
-    
+    let mut s2: &str = "World"; // нельзя менять содержимое строки
+    println!("{}", s2);
+    s2 = "Bob";
+
     println!("{}", s1);
     println!("{}", s2);
 
