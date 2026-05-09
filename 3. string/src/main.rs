@@ -1,19 +1,23 @@
 fn main() {
     println!("---------------- STRING ----------------\n");
 
-    // неизменяемая строка
+    // String — владеет строкой
+    // строку можно изменять, если добавить mut
     let str_text = String::from("Hello String");
     println!("String output: {}", str_text);
 
-    // Функция push_str() - добачляем текст в конец строки
-    // str_text.push_str(" - Hell"); // error not mut
+    // push_str() добавляет текст в конец строки
+    // str_text.push_str(" - Hell"); // error: str_text is not mutable
 
     // println!("String output: {}", str_text);
 
 
-    // строка только для считывания
+    // &str — строковый срез (ссылка на строку)
+    // обычно используется только для чтения
     let name: &str = "Alex";
     println!("Name: {}", name);
 
-    // Не стработает push_str() - error
+    // name.push_str(" Test"); // error
+    // &str нельзя изменять
+
 }
