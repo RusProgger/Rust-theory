@@ -8,7 +8,8 @@ fn main() {
     // Функция push_str() - добачляем текст в конец строки
     // str_text.push_str(" - Hell"); // error not mut
 
-    println!("String output: {}", str_text);
+    // println!("String output: {}", str_text);
 
-    
+    let name: &str = "Alex";
+    println!("Name: {}", name);
 }
