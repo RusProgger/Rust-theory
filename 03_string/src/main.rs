@@ -20,4 +20,11 @@ fn main() {
     // name.push_str(" Test"); // error
     // &str нельзя изменять
 
+    // но так можно name = "Denis"; Но без mut работать не будет. 
+
+    name = "Denis";
+
+    // Вывод 
+
+    println!("Привет, {}", name);
 }
