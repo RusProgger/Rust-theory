@@ -10,6 +10,10 @@ fn main() {
 
     // println!("String output: {}", str_text);
 
+
+    // строка только для считывания
     let name: &str = "Alex";
     println!("Name: {}", name);
+
+    // Не стработает push_str() - error
 }
