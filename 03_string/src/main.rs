@@ -52,9 +52,15 @@ fn main() {
     let nice2 = String::from("отличная погода");
 
     // Объединение строк
-    let res = nice + "" + &nice2;
+    // let mut res = nice + &nice2;
 
-    
+    // Либо использовать format! - более профессиональный способ
+
+    let mut res = format!("{}{}", nice, nice2);
+
+
+    // Добаляем символ в конец строки
+    res.push('!');
     println!("Вывод: {}", res);
 
 }
