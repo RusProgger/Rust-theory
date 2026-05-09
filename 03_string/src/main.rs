@@ -34,7 +34,7 @@ fn main() {
     let s1 = String::from("Hello"); // можно менять содержимое строки
     let mut s2: &str = "World"; // нельзя менять содержимое строки
     println!("{}", s2);
-    s2 = "Bob";
+    s2 = "Alice";
 
     println!("{}", s1);
     println!("{}", s2);
