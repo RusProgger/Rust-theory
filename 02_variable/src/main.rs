@@ -70,5 +70,8 @@ fn main() {
     println!("{}", name_user);
 
     
+    // shadowing -  затенение/скрытие переменных
+
+
 
 }
