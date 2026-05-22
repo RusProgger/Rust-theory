@@ -72,6 +72,9 @@ fn main() {
     
     // shadowing -  затенение/скрытие переменных
 
+    println!("-------------------- Shadowing --------------------");
 
+    let number = 20;
+    println!("Number = {}", number);
 
 }
