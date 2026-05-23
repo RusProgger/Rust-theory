@@ -84,4 +84,12 @@ fn main() {
     let number = 500;
     println!("Number = {}", number);
 
+
+    // Task
+
+    let name = "Alex";
+    let age: u8 = 20;
+
+    println!("Привет меня зовут {}, мне {} лет", name, age);
+
 }
