@@ -69,6 +69,9 @@ fn main() {
     name_user.push_str(", Hello");
     println!("{}", name_user);
 
+    let name_user_title = "Hello, progger!!";
+    println!("Title: {}", name_user_title);
+
     
     // shadowing -  затенение/скрытие переменных
 
