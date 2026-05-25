@@ -54,8 +54,8 @@ fn main() {
     // Объединение строк
     // let mut res = nice + &nice2;
 
-    let mut res_str = nice + &nice2;
-    
+    // let res_str = nice + &nice2;
+    // println!("{}", res_str);
 
     // Либо использовать format! - более профессиональный способ
 
