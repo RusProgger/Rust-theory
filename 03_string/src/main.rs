@@ -71,5 +71,5 @@ fn main() {
     println!("Сообщение: {}", text_title);
 
     // Узнаем сколько символов строка
-    println!("Строка занимает кол-во {} Инеу...", text_title.len());
+    println!("Строка занимает кол-во {} byte", text_title.len());
 }
